@@ -1,0 +1,16 @@
+{
+    "models": [
+        {
+            "model_name": "sample_table",
+            "source_name": "random_source_1",
+            "source_table": "random_source_table_1",
+            "fields": "*",
+            "enabled": "True",
+            "materialization": "table",
+            "modifiedColumn": "UpdatedDateTime",
+            "createdColumn": "CreationDate",
+            "primaryKeyFlag": "True",
+            "primaryKey": "SurrogateKey"
+        }
+    ]
+}
