@@ -11,6 +11,30 @@
             "createdColumn": "CreationDate",
             "primaryKeyFlag": "True",
             "primaryKey": "SurrogateKey"
+        },
+        {
+            "model_name": "sample_table2",
+            "source_name": "random_source_1",
+            "source_table": "random_source_table_2",
+            "fields": "*",
+            "enabled": "True",
+            "materialization": "view",
+            "modifiedColumn": "UpdatedDateTime",
+            "createdColumn": "CreationDate",
+            "primaryKeyFlag": "True",
+            "primaryKey": "SurrogateKey"
+        },
+        {
+            "model_name": "sample_table3",
+            "source_name": "random_source_1",
+            "source_table": "random_source_table_3",
+            "fields": "*",
+            "enabled": "True",
+            "materialization": "view",
+            "modifiedColumn": "UpdatedDateTime",
+            "createdColumn": "CreationDate",
+            "primaryKeyFlag": "True",
+            "primaryKey": "SurrogateKey"
         }
     ]
 }

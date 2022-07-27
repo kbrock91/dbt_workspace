@@ -17,6 +17,7 @@ for x in data['models']:
                     )
 
         }}}}"""
+    
     select_text = f"""
     select 
         {fields} 
