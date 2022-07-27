@@ -5,14 +5,14 @@ client = dbtCloudClient()
 accounts = client.cloud.list_accounts()
 
 account_id = accounts['data'][0]['id']
-customer_name = "Customer3"
-project_name = 'Snowflake - ' + customer_name
+customer_name = '<CUSTOMER_NAME>'
+project_name = '<PROJECT_PREFIX> - ' + customer_name
 
-snowflake_account = 'zna84829'
-snowflake_role = 'transformer'
-snowflake_database = 'kbrock_'+customer_name
-snowflake_warehouse = 'transforming'
-git_clone_url = 'git@github.com:kbrock91/dbt-snowflake-demo.git'
+snowflake_account = '<SNOWFLAKE ACCOUNT>'
+snowflake_role = '<SNOWFLAKE ROLE>'
+snowflake_database = '<DATABASE PREFIX_>'+customer_name
+snowflake_warehouse = '<DATABASE WAREHOUSE>'
+git_clone_url = '<GIT URL>'
 
 print(project_name)
 
